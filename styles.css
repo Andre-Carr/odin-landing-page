@@ -39,7 +39,7 @@ body {
 
 .heroMainBlurb {
     display: flex;
-    flex-flow: column wrap;
+    flex-flow: column nowrap;
     width: 50%;
 }
 
@@ -80,7 +80,8 @@ body {
 }
 
 .infoItem img {
-    border: 2px solid blue;
+    border: 3px solid #3882F6;
+    border-radius: 10px;
     flex: 2;
 }
 
@@ -118,6 +119,7 @@ body {
 
 .callToAction {
     background-color: #3882F6;
+    border-radius: 5px;
     height: 25%;
     width: 100%;
 
@@ -136,4 +138,62 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+/* Text styles */
+.mainText {
+    color: #F9FAF8
+}
+
+.heroHeader .mainText {
+    font-size: 24px;
+}
+
+.heroMainBlurb .mainText {
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+.secondaryText {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.contentText {
+    color: #1F2937;
+}
+
+
+
+.quote blockquote {
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+}
+
+.quote figcaption {
+    font-weight: bolder;
+}
+
+/* Link styles */
+a {
+    text-decoration: none;
+}
+
+/* Button Styles */
+
+button {
+    background-color: #3882F6;
+    border-radius: 5px;
+    width: 75px;
+    height: 25px;
+    color: #F9FAF8;
+}
+
+.heroMainBlurb button {
+    border: none;
+}
+
+.callToAction button {
+    border: 1px solid #F9FAF8;
 }
