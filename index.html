@@ -4,20 +4,21 @@
   <head>
     <meta charset="UTF-8" />
     <title>Home</title>
+    <link rel="stylesheet" href="./styles.css" />
   </head>
-  <body>
+  <body class="container body">
     <div class="container hero">
       <header class="container heroHeader">
         <p>Header Logo</p>
-        <a href="#">header link 1</a>
-        <a href="#">header link 1</a>
-        <a href="#">header link 1</a>
+        <a href="#" class="secondaryText">header link one</a>
+        <a href="#" class="secondaryText">header link two</a>
+        <a href="#" class="secondaryText">header link three</a>
       </header>
       <div class="container heroMain">
-        <div class="container heroMainText">
+        <div class="container heroMainContent">
           <h1>This website is awesome!</h1>
 
-          <p>
+          <p class="secondaryText">
             This website has some subtext that goes under the main title. It's a
             smaller font and the color is lower contrast
           </p>
@@ -32,26 +33,28 @@
       </div>
     </div>
     <div class="container info">
-      <h2>Some Random Information.</h2>
-      <div class="container infoItemContainer">
-        <div class="container infoItem">
-          <img src="#" alt="image" />
-          <p>This is some subtext under an illustration or image</p>
-        </div>
+      <div class="container infoContainer">
+        <h2>Some Random Information.</h2>
+        <div class="container infoItemContainer">
+          <div class="container infoItem">
+            <img src="#" alt="image" />
+            <p>This is some subtext under an illustration or image</p>
+          </div>
 
-        <div class="container infoItem">
-          <img src="#" alt="image" />
-          <p>This is some subtext under an illustration or image</p>
-        </div>
+          <div class="container infoItem">
+            <img src="#" alt="image" />
+            <p>This is some subtext under an illustration or image</p>
+          </div>
 
-        <div class="container infoItem">
-          <img src="#" alt="image" />
-          <p>This is some subtext under an illustration or image</p>
-        </div>
+          <div class="container infoItem">
+            <img src="#" alt="image" />
+            <p>This is some subtext under an illustration or image</p>
+          </div>
 
-        <div class="container infoItem">
-          <img src="#" alt="image" />
-          <p>This is some subtext under an illustration or image</p>
+          <div class="container infoItem">
+            <img src="#" alt="image" />
+            <p>This is some subtext under an illustration or image</p>
+          </div>
         </div>
       </div>
       <div class="container quote">
@@ -60,15 +63,19 @@
           it's just filling up space, or maybe people will actually read it. Who
           knows? All I know is that it looks nice.
         </blockquote>
-        <figcaption>Thor, God of Thunder</figcaption>
+        <figcaption>-Thor, God of Thunder</figcaption>
       </div>
       <div class="container signUp">
-        <h3>Call to action! It's time!</h3>
-        <p>Sign up for our product by clicking that button right over there!</p>
+        <div class="container signUpText">
+          <h3>Call to action! It's time!</h3>
+          <p class="secondaryText">
+            Sign up for our product by clicking that button right over there!
+          </p>
+        </div>
         <button>Sign up</button>
       </div>
     </div>
-    <footer class="container footer">
+    <footer class="container footer secondaryText">
       <p>Copyright © The Odin Project 2021</p>
     </footer>
   </body>
