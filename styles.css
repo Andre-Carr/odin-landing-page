@@ -23,12 +23,17 @@ body {
 
     display: flex;
     flex-flow: column nowrap;
-    gap: 25%;
+    gap: 15%;
 }
 
 .heroHeader {
     display: flex;
     justify-content: space-between;
+}
+
+.heroHeaderRightLinks {
+    display: flex;
+    gap: 16px;
 }
 
 .heroMain {
@@ -41,6 +46,7 @@ body {
     display: flex;
     flex-flow: column nowrap;
     width: 50%;
+    gap: 8px;
 }
 
 .heroMain img {
@@ -75,6 +81,7 @@ body {
     display: flex;
     flex-flow: column nowrap;
     justify-content: center;
+    gap: 8px;
     
     text-align: center;
 }
@@ -163,8 +170,6 @@ body {
     color: #1F2937;
 }
 
-
-
 .quote blockquote {
     font-size: 36px;
     font-weight: lighter;
@@ -185,9 +190,10 @@ a {
 button {
     background-color: #3882F6;
     border-radius: 5px;
-    width: 75px;
-    height: 25px;
+    width: 100px;
+    height: 30px;
     color: #F9FAF8;
+    flex-shrink: 0;
 }
 
 .heroMainBlurb button {
