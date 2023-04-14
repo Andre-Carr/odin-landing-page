@@ -132,4 +132,8 @@ body {
 .footer {
     background-color: #1F2937;
     flex-basis: 5%;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
