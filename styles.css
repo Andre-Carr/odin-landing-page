@@ -50,7 +50,42 @@ body {
 
 /* Info Styles */
 .info {
+    padding: 0 10%;
+
     flex-basis: 25%;
+
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+}
+
+.info h2 {
+    padding: 32px;
+}
+
+.infoItemContainer {
+    display: flex;
+    justify-content: space-around;
+    height: 100%;
+}
+
+.infoItem {
+    width: 15%;
+    height: 80%;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    
+    text-align: center;
+}
+
+.infoItem img {
+    border: 2px solid blue;
+    flex: 2;
+}
+
+.infoItem p {
+    flex: 1;
 }
 
 /* Quote styles */
