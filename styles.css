@@ -17,7 +17,35 @@ body {
 /* Hero styles */
 .hero {
     background-color: #1F2937;
+    padding: 1% 10%;
+
     flex-basis: 25%;
+
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 25%;
+}
+
+.heroHeader {
+    display: flex;
+    justify-content: space-between;
+}
+
+.heroMain {
+    display: flex;
+    gap: 5%;
+    height: 50%;
+}
+
+.heroMainBlurb {
+    display: flex;
+    flex-flow: column wrap;
+    width: 50%;
+}
+
+.heroMain img {
+    background-color: gray;
+    width: 50%;
 }
 
 /* Info Styles */
